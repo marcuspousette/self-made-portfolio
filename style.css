@@ -51,6 +51,7 @@ nav {
     cursor: pointer; /* ändrar muspekaren till "pointer", alltså en hand med ett finger. Detta visar anvandaren att hen kan trycka på den */
 }
 
+/* Hero */
 .hero {
     height: 85vh; /* 85% utav hela skärmens höjd */
     display: flex;
@@ -81,10 +82,9 @@ nav {
 .hero-img img {
     height: 500px; /* sätter en fixed height, detta kommer ändras senare längre ner i koden för mindre skärmar */
 }
+/* Hero end */
 
 .work {
-    /* Kommer ge lite utrymme från toppen utav skärmen när man trycker på knappen som länkar hit */
-    /* Testa kommentera bort raden under och se hur det påverkar hemsidan */
     scroll-margin-top: 100px;
 }
 
@@ -120,6 +120,7 @@ nav {
     font-size: 14px;
 }
 
+/* Project start */
 .projects-container {
     padding: 0px 20px; /* 0px topp och botten, 20px väster och höger*/
 }
@@ -182,6 +183,7 @@ nav {
 .project-text-subtitle {
     font-family: 'Piazzolla', serif; /* 'Piazzolla' fonten är importerad från google fonts i vårt html dokument */
 }
+/* Project end */
 
 footer {
     padding: 30px; /* 30px från alla håll */
@@ -222,16 +224,10 @@ button.white {
     }
     .hero h1 {
         font-size: 36px;
-        line-height: 40px; /* line-height specificerar avståndet från olika rader i texten. */
-    }
-
-    .hero-img {
-        margin-right: 0px;
-        margin-bottom: 12px;
+        line-height: 40px;
     }
 
     .hero-img img {
-        /* gör bilden mindre */
         height: 420px;
     }
 }
